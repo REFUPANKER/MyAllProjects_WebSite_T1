@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Project Downloader
+    </title>
+    <style>
+        @import "MainPageStyle.css";
+    </style>
+    <script src="MainPageScript.js"></script>
+</head>
+
+<body onload="BodyOnLoad()">
+    <div class="NavBar">
+        <label class="NavBarInnerTitle">
+            Project Downloader
+        </label>
+    </div>
+
+    <div class="IntroPanel">
+        <div class="BackgroundSquares" style="width: 60vh;height:60vh;left: -15vh;top: 40vh;"></div>
+        <div class="BackgroundSquares"
+            style="width: 60vh;height:60vh;float:right;right: -15vh;top: -20vh;transform: rotate(-135deg);"></div>
+        <div class="IntroPanelInnerPanel">
+
+            <label style="font-size: 8vh;position: absolute;left: 3vh;">Wellcome</label>
+            <label style="font-size: 3vh;position: absolute;width: 50%;left: 3vh;top: 9vh;word-wrap: break-word;">
+                I'm REFUPANKER
+                <br>In this page you will see my all projects.
+            </label>
+
+            <div class="RecommendedVideosTable">
+                <label class="IntroTable_MiniTitles">Recommended Videos</label>
+                <div id="RecoVideoItemTable" class="RecoVideoItemTable"
+                    style="overflow-x: hidden;overflow-y: visible;height: 90%;top: 4vh;position: relative;">
+
+                    <!--Recommended Videos Table
+                    <div class="RecoVideoTableItem">
+                        <div class="RecoVideoTableItem_Video"></div>
+                        <label class="RecoVideoTableItem_Title">Here is the video name</label>
+                    </div>
+                    -->
+
+                </div>
+            </div>
+
+            <div class="UpdateNotesPanel">
+                <label class="IntroTable_MiniTitles">Update Notes</label>
+
+                <div id="UpdateNotesTable" class="UpdateNotesTable">
+                    <!-- Update Notes Table -->
+
+                    <!-- Update Note Example 
+                        
+                    <div class="UpdateNotes" >
+                        <label>
+                            Link In Bio App
+                        </label>
+                        <br>
+                        <label class="UpdateNotes_UrLabel">
+                            We updated everything
+                        </label>
+                    </div>
+
+                    -->
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="AppsBarHolder">
+
+        <div
+            style="position: absolute;left:10%;top:5%;box-shadow: inset 0vh 0vh 4vh 3vh #161b25;width: 80%;height: 35%;border-radius: 2vh;">
+            <label
+                style="color: white;font-size: 3vh;position: absolute;width: 100%;text-align: center;top: 2vh;font-family: verdana;">
+                Here is the my applications
+            </label>
+            <!--Left Panel / Supported Platforms -->
+            <div
+                style="position: absolute;width: 40%;top: 15%;height: 85%;border-radius: 2vh;float:left;margin-left: 2vh;overflow: hidden;overflow-y: visible;">
+                <label
+                    style="color: rgb(156, 156, 156);font-size: 3vh;position: absolute;width: 100%;text-align: center;font-family: verdana;">
+                    Target Platforms
+                </label>
+
+                <div style="top:4vh;position: absolute;width: 100%;height: 86%;border-radius: 2vh;">
+                    <img width="60vh" height="60vh" style="margin: 2vh;"
+                        src="https://cdn-icons-png.flaticon.com/512/732/732225.png">
+                    <img width="60vh" height="60vh" style="margin: 2vh;"
+                        src="https://cdn-icons-png.flaticon.com/512/226/226770.png">
+                </div>
+
+            </div>
+            <!--Left Panel / Languages -->
+            <div
+                style="position: absolute;width: 40%;top: 15%;height: 85%;border-radius: 2vh;right: 0px;margin-right: 2vh;overflow: hidden;overflow-y: visible;">
+                <label
+                    style="color: rgb(156, 156, 156);font-size: 3vh;position: absolute;width: 100%;text-align: center;font-family: verdana;">
+                    Languages
+                </label>
+                <div
+                    style="top:4vh;position: absolute;width: 100%;height: 86%;border-radius: 2vh;display: inline-block;">
+                    <img width="60vh" height="60vh" style="margin: 2vh;"
+                        src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png">
+                    <img width="60vh" height="60vh" style="margin: 2vh;"
+                        src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+                    <img width="60vh" height="60vh" style="margin: 2vh;"
+                        src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="AppsBar" id="AppsBarTable">
+            <!--Apps Bar Item Example 
+            <div class="AppsBarItem">
+                <div class="AppBarsItem_Image"></div>
+                <label class="AppBarsItem_Title">AppTitle</label>
+                <button class="AppBarsItem_Button" >Github Page</button>
+            </div>
+            -->
+            
+        </div>
+    </div>
+</body>
+
+</html>
